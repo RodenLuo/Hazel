@@ -81,5 +81,6 @@ void Sandbox2D::OnImGuiRender()
 
 void Sandbox2D::OnEvent(Hazel::Event& e)
 {
+	HZ_TRACE(e);
 	m_CameraController.OnEvent(e);
 }
